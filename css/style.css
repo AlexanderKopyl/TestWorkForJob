@@ -10,6 +10,14 @@
   src: url('../fonts/Fregat_regular.otf');
 }
 /*  header*/
+#header{
+  width: 90%;
+  margin: auto;
+}
+.marginClass{
+      margin-right: 83px;
+      margin-left: 50px;
+}
 #header span{
   font-family: Fregat_bold;
   font-size: 45px;
@@ -75,6 +83,7 @@ border: 2px solid green;
 
 }
 .buttonCollor {
+  font-family: Fregat_regular;
   cursor: pointer;
   text-decoration: none;
   font-size: 14px;
@@ -103,4 +112,170 @@ top: 10px;
   top: 26px;
   color: white;
   list-style: none;
+}
+/* slick */
+.slick-prev{
+  z-index: 1;
+  width: 66px;
+    height: 66px;
+  background-repeat: no-repeat;
+  background-image: url(../img/4.png);
+}
+.slick-prev::before{
+  content:''
+}
+.slick-next{
+  width: 66px;
+    height: 66px;
+  background-repeat: no-repeat;
+  background-image: url(../img/3.png);
+}
+.slick-next::before{
+  content:''
+}
+.slick-slide img{
+  margin: auto;
+}
+/* Up text slider */
+.class-margin{
+  margin-top: 66px;
+}
+.class-margin h2{
+  margin-bottom: 37px;
+    text-align: center;
+    color: green;
+    font-family: fregat;
+}
+.class-margin p{
+  margin-bottom: 37px;
+    text-align: center;
+    padding: 15px;
+}
+/* Down text slider */
+.list-Capabilities{
+  margin-left: 66px;
+    margin-top: 50px;
+    list-style: none;
+}
+
+.list-Capabilities li{
+  vertical-align: text-top;
+      width: 480px;
+      height: 70px;
+      display: inline-block;
+      margin-right: 28px;
+      margin-bottom: 10px;
+}
+.list-Capabilities li svg {
+  color:#00B115;
+  margin-right: 11px;
+}
+/* Adress*/
+.adress{
+  background-color: #CEFFCB;
+  min-height: 370px;
+  width: 100%;
+}
+.adress span{
+  display: block;
+}
+.adress button{
+  color: #A9B1A9;
+    border-radius: 8px;
+border: 1px solid #A9B1A9;
+  width: 270px;
+  height: 42px;
+  font-family: Fregat_bold;
+  font-size: 14px;
+  background-color: #CEFFCB;
+}
+.adress button:hover{
+  color:white;
+  cursor: pointer;
+  background-color: #00BA37;
+}
+.button{
+  width: 100%;
+    text-align: center;
+}
+.adress div{
+  text-align: center;
+
+}
+.justify{
+  color: #A9B1A9;
+   justify-content: center;
+}
+.justify div{
+  margin-bottom: 47px;
+}
+.justify h3{
+  margin-top: 56px;
+}
+/* WHy */
+.why{
+  display: flex;
+  align-items: center;
+  height: 960px;
+  background-image: url(../img/11.png);
+}
+.why span{
+  display: block;
+  color:#00B100;
+  font-size: 50px;
+  text-align: center;
+}
+.caption{
+  font-size: 32px;
+  font-family: Fregat_bold;
+}
+.uder_caption{
+  text-align: center;
+  font-size: 16px;
+  color:white;
+}
+.uder_uder_caption{
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+.text_container{
+  margin-bottom: 166px;
+}
+.out_margin{
+margin-top: 120px;
+}
+.margin_for_first{
+  margin-left: 73px;
+  margin-right: 10px;
+}
+.margin_right{
+  margin-right: 10px;
+}
+.why .font_for_hour{
+  font-size: 17px;
+  margin-bottom: 24px;
+}
+.row .font_size_span_Under_hour{
+  font-size: 20px;
+}
+.container_footer_text span{
+  display: inline-block;
+  font-size: 48px;
+  font-family: Fregat_bold;
+}
+.container_footer_text p {
+  text-align: center;
+  color:white;
+      font-family: fregat;
+}
+.margin_bottom_for_row{
+  margin-bottom: 60px;
+}
+.container_footer_text .color_green{
+  color: #00BA37;
+  margin-bottom: 50px;
+}
+.text_under{
+  font-size: 16px;
 }
