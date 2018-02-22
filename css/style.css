@@ -42,6 +42,8 @@ height: 60px;
 #offer{
   position: relative;
   background-image: url(../img/1.png);
+  background-repeat: no-repeat;
+  background-position: center;
   height: 600px;
 }
 .form_offer{
@@ -224,6 +226,8 @@ border: 1px solid #707070;
   align-items: center;
   height: 960px;
   background-image: url(../img/11.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .why span{
   display: block;
@@ -252,11 +256,11 @@ border: 1px solid #707070;
 margin-top: 120px;
 }
 .margin_for_first{
-  margin-left: 73px;
+  margin-left: 60px;
   margin-right: 10px;
 }
 .margin_right{
-  margin-right: 10px;
+  margin-right: 16px;
 }
 .why .font_for_hour{
   font-size: 17px;
